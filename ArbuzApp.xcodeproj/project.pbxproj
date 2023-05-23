@@ -7,23 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1FEB2BFBE0035DB86A68C0C1 /* Pods_ArbuzApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD4DC16C6E8337017DC91984 /* Pods_ArbuzApp.framework */; };
 		9BA9E46A2A1CF7E000573ABA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA9E4692A1CF7E000573ABA /* AppDelegate.swift */; };
 		9BA9E46C2A1CF7E000573ABA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA9E46B2A1CF7E000573ABA /* SceneDelegate.swift */; };
-		9BA9E46E2A1CF7E000573ABA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA9E46D2A1CF7E000573ABA /* ViewController.swift */; };
-		9BA9E4712A1CF7E000573ABA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BA9E46F2A1CF7E000573ABA /* Main.storyboard */; };
 		9BA9E4732A1CF7E300573ABA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BA9E4722A1CF7E300573ABA /* Assets.xcassets */; };
 		9BA9E4762A1CF7E300573ABA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BA9E4742A1CF7E300573ABA /* LaunchScreen.storyboard */; };
+		9BA9E47E2A1CF8C100573ABA /* BasketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA9E47D2A1CF8C100573ABA /* BasketViewController.swift */; };
+		9BA9E4802A1CFD4500573ABA /* ProductListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA9E47F2A1CFD4500573ABA /* ProductListViewController.swift */; };
+		9BA9E4832A1D0F7200573ABA /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA9E4822A1D0F7200573ABA /* Product.swift */; };
+		9BA9E4852A1D0F8B00573ABA /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA9E4842A1D0F8B00573ABA /* ProductCollectionViewCell.swift */; };
+		9BA9E4872A1D0FB500573ABA /* ShoppingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA9E4862A1D0FB500573ABA /* ShoppingManager.swift */; };
+		9BA9E48A2A1D177900573ABA /* BasketCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA9E4892A1D177900573ABA /* BasketCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		09A107727E2DB9A62345C1C9 /* Pods-ArbuzApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArbuzApp.debug.xcconfig"; path = "Target Support Files/Pods-ArbuzApp/Pods-ArbuzApp.debug.xcconfig"; sourceTree = "<group>"; };
+		6F00ECB15FADF115086CC135 /* Pods-ArbuzApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArbuzApp.release.xcconfig"; path = "Target Support Files/Pods-ArbuzApp/Pods-ArbuzApp.release.xcconfig"; sourceTree = "<group>"; };
 		9BA9E4662A1CF7E000573ABA /* ArbuzApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArbuzApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BA9E4692A1CF7E000573ABA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9BA9E46B2A1CF7E000573ABA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9BA9E46D2A1CF7E000573ABA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9BA9E4702A1CF7E000573ABA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9BA9E4722A1CF7E300573ABA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BA9E4752A1CF7E300573ABA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9BA9E4772A1CF7E300573ABA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BA9E47D2A1CF8C100573ABA /* BasketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketViewController.swift; sourceTree = "<group>"; };
+		9BA9E47F2A1CFD4500573ABA /* ProductListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewController.swift; sourceTree = "<group>"; };
+		9BA9E4822A1D0F7200573ABA /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		9BA9E4842A1D0F8B00573ABA /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCell.swift; sourceTree = "<group>"; };
+		9BA9E4862A1D0FB500573ABA /* ShoppingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingManager.swift; sourceTree = "<group>"; };
+		9BA9E4892A1D177900573ABA /* BasketCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketCell.swift; sourceTree = "<group>"; };
+		CD4DC16C6E8337017DC91984 /* Pods_ArbuzApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArbuzApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FEB2BFBE0035DB86A68C0C1 /* Pods_ArbuzApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0428F88AEDBB3D4DB76D8EDA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				09A107727E2DB9A62345C1C9 /* Pods-ArbuzApp.debug.xcconfig */,
+				6F00ECB15FADF115086CC135 /* Pods-ArbuzApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		9BA9E45D2A1CF7E000573ABA = {
 			isa = PBXGroup;
 			children = (
 				9BA9E4682A1CF7E000573ABA /* ArbuzApp */,
 				9BA9E4672A1CF7E000573ABA /* Products */,
+				0428F88AEDBB3D4DB76D8EDA /* Pods */,
+				C38249B05971A92411941C24 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +82,41 @@
 			children = (
 				9BA9E4692A1CF7E000573ABA /* AppDelegate.swift */,
 				9BA9E46B2A1CF7E000573ABA /* SceneDelegate.swift */,
-				9BA9E46D2A1CF7E000573ABA /* ViewController.swift */,
-				9BA9E46F2A1CF7E000573ABA /* Main.storyboard */,
 				9BA9E4722A1CF7E300573ABA /* Assets.xcassets */,
 				9BA9E4742A1CF7E300573ABA /* LaunchScreen.storyboard */,
 				9BA9E4772A1CF7E300573ABA /* Info.plist */,
+				9BA9E4862A1D0FB500573ABA /* ShoppingManager.swift */,
+				9BA9E4812A1D0EFA00573ABA /* ProductList */,
+				9BA9E4882A1D174600573ABA /* Basket */,
 			);
 			path = ArbuzApp;
+			sourceTree = "<group>";
+		};
+		9BA9E4812A1D0EFA00573ABA /* ProductList */ = {
+			isa = PBXGroup;
+			children = (
+				9BA9E47F2A1CFD4500573ABA /* ProductListViewController.swift */,
+				9BA9E4822A1D0F7200573ABA /* Product.swift */,
+				9BA9E4842A1D0F8B00573ABA /* ProductCollectionViewCell.swift */,
+			);
+			path = ProductList;
+			sourceTree = "<group>";
+		};
+		9BA9E4882A1D174600573ABA /* Basket */ = {
+			isa = PBXGroup;
+			children = (
+				9BA9E47D2A1CF8C100573ABA /* BasketViewController.swift */,
+				9BA9E4892A1D177900573ABA /* BasketCell.swift */,
+			);
+			path = Basket;
+			sourceTree = "<group>";
+		};
+		C38249B05971A92411941C24 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD4DC16C6E8337017DC91984 /* Pods_ArbuzApp.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +126,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9BA9E47A2A1CF7E300573ABA /* Build configuration list for PBXNativeTarget "ArbuzApp" */;
 			buildPhases = (
+				34F7BC28268E3DE309FC24C7 /* [CP] Check Pods Manifest.lock */,
 				9BA9E4622A1CF7E000573ABA /* Sources */,
 				9BA9E4632A1CF7E000573ABA /* Frameworks */,
 				9BA9E4642A1CF7E000573ABA /* Resources */,
+				86FAD0186BF49F778D48908A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,34 +181,72 @@
 			files = (
 				9BA9E4762A1CF7E300573ABA /* LaunchScreen.storyboard in Resources */,
 				9BA9E4732A1CF7E300573ABA /* Assets.xcassets in Resources */,
-				9BA9E4712A1CF7E000573ABA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		34F7BC28268E3DE309FC24C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ArbuzApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86FAD0186BF49F778D48908A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArbuzApp/Pods-ArbuzApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArbuzApp/Pods-ArbuzApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ArbuzApp/Pods-ArbuzApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9BA9E4622A1CF7E000573ABA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BA9E46E2A1CF7E000573ABA /* ViewController.swift in Sources */,
 				9BA9E46A2A1CF7E000573ABA /* AppDelegate.swift in Sources */,
+				9BA9E4852A1D0F8B00573ABA /* ProductCollectionViewCell.swift in Sources */,
+				9BA9E47E2A1CF8C100573ABA /* BasketViewController.swift in Sources */,
 				9BA9E46C2A1CF7E000573ABA /* SceneDelegate.swift in Sources */,
+				9BA9E4872A1D0FB500573ABA /* ShoppingManager.swift in Sources */,
+				9BA9E48A2A1D177900573ABA /* BasketCell.swift in Sources */,
+				9BA9E4802A1CFD4500573ABA /* ProductListViewController.swift in Sources */,
+				9BA9E4832A1D0F7200573ABA /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9BA9E46F2A1CF7E000573ABA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9BA9E4702A1CF7E000573ABA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9BA9E4742A1CF7E300573ABA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -216,7 +308,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +362,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -282,6 +374,7 @@
 		};
 		9BA9E47B2A1CF7E300573ABA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09A107727E2DB9A62345C1C9 /* Pods-ArbuzApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -291,7 +384,6 @@
 				INFOPLIST_FILE = ArbuzApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -309,6 +401,7 @@
 		};
 		9BA9E47C2A1CF7E300573ABA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F00ECB15FADF115086CC135 /* Pods-ArbuzApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -318,7 +411,6 @@
 				INFOPLIST_FILE = ArbuzApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

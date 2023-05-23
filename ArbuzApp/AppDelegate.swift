@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  ArbuzApp
 //
-//  Created by Techman on 23.05.2023.
+//  Created by Balausa on 23.05.2023.
 //
 
 import UIKit
