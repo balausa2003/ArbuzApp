@@ -45,7 +45,6 @@ class BasketCell: UITableViewCell {
         let button = UIButton()
         button.setTitle("-", for: .normal)
         button.setTitleColor(.black, for: .normal)
-        button.addTarget(BasketCell.self, action: #selector(minusClicked), for: .touchUpInside)
         return button
     }()
 
@@ -53,7 +52,6 @@ class BasketCell: UITableViewCell {
         let button = UIButton()
         button.setTitle("+", for: .normal)
         button.setTitleColor(.black, for: .normal)
-        button.addTarget(BasketCell.self, action: #selector(plusClicked), for: .touchUpInside)
         return button
     }()
     
@@ -61,7 +59,9 @@ class BasketCell: UITableViewCell {
 
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
-        
+        minusButton.addTarget(self, action: #selector(minusClicked), for: .touchUpInside)
+        plusButton.addTarget(self, action: #selector(plusClicked), for: .touchUpInside)
+
         setupView()
     }
 

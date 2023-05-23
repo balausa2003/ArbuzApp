@@ -49,7 +49,7 @@ class ProductCollectionViewCell: UICollectionViewCell {
         let button = UIButton()
         button.setTitle("-", for: .normal)
         button.setTitleColor(.black, for: .normal)
-        button.addTarget(ProductCollectionViewCell.self, action: #selector(ProductCollectionViewCell.minusClicked), for: .touchUpInside)
+       
         return button
     }()
 
@@ -57,14 +57,14 @@ class ProductCollectionViewCell: UICollectionViewCell {
         let button = UIButton()
         button.setTitle("+", for: .normal)
         button.setTitleColor(.black, for: .normal)
-        button.addTarget(ProductCollectionViewCell.self, action: #selector(ProductCollectionViewCell.plusClicked), for: .touchUpInside)
         return button
     }()
 
     override init(frame: CGRect) {
         super.init(frame: frame)
-        
-        setupView()
+       setupView()
+        minusButton.addTarget(self, action: #selector(minusClicked), for: .touchUpInside)
+        plusButton.addTarget(self, action: #selector(plusClicked), for: .touchUpInside)
     }
 
     required init?(coder: NSCoder) {

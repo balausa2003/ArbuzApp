@@ -32,13 +32,13 @@ class ProductListViewController: UIViewController {
         button.setTitle("Перейти в корзину", for: .normal)
         button.setTitleColor(.black, for: .normal)
         button.layer.cornerRadius = 16
-        button.addTarget(ProductListViewController.self, action: #selector(continueClicked), for: .touchUpInside)
+       
         return button
     }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        continueButton.addTarget(self, action: #selector(continueClicked), for: .touchUpInside)
         setupView()
     }
     
